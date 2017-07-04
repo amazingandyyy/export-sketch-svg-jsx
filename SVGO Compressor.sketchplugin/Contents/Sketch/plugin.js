@@ -21360,8 +21360,8 @@ exports.attrsGroups = {
         'clip-path',
         'clip-rule',
         'color',
-        'color-interpolation',
-        'color-interpolation-filters',
+        'colorInterpolation',
+        'colorInterpolation-filters',
         'color-profile',
         'color-rendering',
         'cursor',
@@ -21373,7 +21373,7 @@ exports.attrsGroups = {
         'fill-opacity',
         'fill-rule',
         'filter',
-        'flood-color',
+        'floodColor',
         'flood-opacity',
         'font-family',
         'font-size',
@@ -21387,7 +21387,7 @@ exports.attrsGroups = {
         'image-rendering',
         'kerning',
         'letter-spacing',
-        'lighting-color',
+        'lightingColor',
         'marker-end',
         'marker-mid',
         'marker-start',
@@ -21398,7 +21398,7 @@ exports.attrsGroups = {
         'shape-rendering',
         'solid-color',
         'solid-opacity',
-        'stop-color',
+        'stopColor',
         'stop-opacity',
         'stroke',
         'stroke-dasharray',
@@ -21440,7 +21440,7 @@ exports.attrsGroupsDefaults = {
         opacity: '1',
         'solid-color': '#000',
         'solid-opacity': '1',
-        'stop-color': '#000',
+        'stopColor': '#000',
         'stop-opacity': '1',
         'fill-opacity': '1',
         'fill-rule': 'nonzero',
@@ -21462,8 +21462,8 @@ exports.attrsGroupsDefaults = {
         'marker-start': 'none',
         'marker-mid': 'none',
         'marker-end': 'none',
-        'color-interpolation': 'sRGB',
-        'color-interpolation-filters': 'linearRGB',
+        'colorInterpolation': 'sRGB',
+        'colorInterpolation-filters': 'linearRGB',
         'color-rendering': 'auto',
         'shape-rendering': 'auto',
         'text-rendering': 'auto',
@@ -23625,8 +23625,8 @@ exports.referencesProps = [
 exports.inheritableAttrs = [
     'clip-rule',
     'color',
-    'color-interpolation',
-    'color-interpolation-filters',
+    'colorInterpolation',
+    'colorInterpolation-filters',
     'color-profile',
     'color-rendering',
     'cursor',
@@ -23850,7 +23850,7 @@ exports.colorsShortNames = {
 
 // http://www.w3.org/TR/SVG/single-page.html#types-DataTypeColor
 exports.colorsProps = [
-    'color', 'fill', 'stroke', 'stop-color', 'flood-color', 'lighting-color'
+    'color', 'fill', 'stroke', 'stopColor', 'floodColor', 'lightingColor'
 ];
 
 },{}],124:[function(require,module,exports){
