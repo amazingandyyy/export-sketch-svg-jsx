@@ -1,0 +1,26 @@
+{
+  "name": "SVGO Compressor for React",
+  "description": "React friendly. A Plugin that compresses SVG assets using SVGO, right when you export them. This Plugin *requires* Sketch 3.8.",
+  "author": "Amazingandyyy",
+  "authorEmail": "amazingandyyy@gmail.com",
+  "version": "0.0.1",
+  "identifier": "com.sketchapp.plugins.svgo-compressor",
+  "homepage": "https:/github.com/amazingandyyy/export-sketch-svg-react",
+  "compatibleVersion": 3.8,
+  "commands": [
+    {
+      "identifier": "svgo",
+      "handler": "___svgo_run_handler_",
+      "script": "plugin.js",
+      "name": "About SVGO Compressor",
+      "handlers": {
+        "run": "___svgo_run_handler_",
+        "actions": {
+          "ExportSlices": "___svgo_run_handler_",
+          "Export": "___svgo_run_handler_"
+        }
+      }
+    }
+  ],
+  "disableCocoaScriptPreprocessor": true
+}
