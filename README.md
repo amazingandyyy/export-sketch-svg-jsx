@@ -1,11 +1,11 @@
-# export-sketch-svg-react
+# export-sketch-svg-jsx
 // cloned from https://github.com/BohemianCoding/svgo-compressor
 
 A Plugin that compresses SVG assets using SVGO, right when you export them. This Plugin *requires* Sketch 3.8.
 
 ## Install
 
-- Download [ export-sketch-svg-react]() & unzip it.
+- Download [ export-sketch-svg-jsx]() & unzip it.
 - Double click **SVGO Compressor.sketchplugin** to install the Plugin.
 
 ## Usage
